@@ -1397,3 +1397,13 @@ bitcoinjs.bitcoin.networks.anon = {
 	scriptHash: 0x5389,
 	wif: 0x80
 };
+bitcoinjs.bitcoin.networks.freecoin = {
+  messagePrefix: '\x18FreeCoin Signed Message:\n',
+  bip32: {
+    public: 0x0488B21E,
+    private: 0x0488ADE4,
+  },
+  pubKeyHash: 0x23,
+  scriptHash: 0x58,
+  wif:  0x80,
+};
