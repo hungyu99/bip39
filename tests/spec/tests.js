@@ -1333,6 +1333,13 @@ it('Allows selection of ANON', function(done) {
     };
     testNetwork(done, params);
 });
+it('Allows selection of FREE', function(done) {
+    var params = {
+        selectText: "FREE - FreeCoin",
+        firstAddress: "FNHoFYkLA2mF2M6FoH2VXmrZs8CruWCDNy",
+    };
+    testNetwork(done, params);
+});
 
 
 // BIP39 seed is set from phrase
