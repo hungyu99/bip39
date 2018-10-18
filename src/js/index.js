@@ -1985,6 +1985,13 @@
                 setHdCoin(120);
             },
         },
+	{
+            name: "FREE - FreeCoin",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.bitcoingreen;
+                setHdCoin(232);
+            },
+        },
         {
             name: "FRST - Firstcoin",
             onSelect: function() {
